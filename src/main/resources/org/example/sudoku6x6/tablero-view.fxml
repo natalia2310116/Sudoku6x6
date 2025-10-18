@@ -9,7 +9,7 @@
             xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="org.example.sudoku6x6.Controller.ControllerTablero">
 
-    <!-- Barra superior con título y botón -->
+    <!-- Barra superior con título y botones -->
     <top>
         <HBox alignment="CENTER" spacing="20">
             <padding>
@@ -21,6 +21,10 @@
                     text="Iniciar juego"
                     style="-fx-font-size: 14px;"
                     onAction="#iniciarJuego"/>
+            <Button fx:id="btnAyuda"
+                    text="Ayuda"
+                    style="-fx-font-size: 14px;"
+                    onAction="#sugerir"/>
         </HBox>
     </top>
 
